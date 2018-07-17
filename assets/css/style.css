@@ -485,7 +485,7 @@ Button
 	border: 2px solid;
 	border-color: #ff6863;
 	padding: 1rem 3rem;
-	margin-bottom: 1rem;
+	/* margin-bottom: 1rem; */
 }
 
 .btn-primary:hover {
