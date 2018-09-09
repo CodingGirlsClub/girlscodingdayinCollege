@@ -157,24 +157,10 @@
             $(".btn-cart").on("click", function(e){
                 e.stopPropagation();
             });
-            // $(".about-nav").on("click", function(){
-            //     $(this).addClass('nav-active');
-            // });
-            // $(".service-nav").on("click", function () {
-            //     $(this).addClass('nav-active');
-            // });
-            // $(".portfolio-nav").on("click", function () {
-            //     $(this).addClass('nav-active');
-            // });
-            // $(".cbrand-nav").on("click", function () {
-            //     $(this).addClass('nav-active');
-            // });
-            // $(".blog-nav").on("click", function () {
-            //     $(this).addClass('nav-active');
-            // });
-            // $(".contact-nav").on("click", function () {
-            //     $(this).addClass('nav-active');
-            // });
+            $("#navbar-menu a").on("click", function(){
+                $('#navbar-menu a.nav-active').removeClass('nav-active');
+                $(this).addClass('nav-active');
+            });
             // ------------------------------------------------------------------------------ //
             // Toggle Search
             // ------------------------------------------------------------------------------ //

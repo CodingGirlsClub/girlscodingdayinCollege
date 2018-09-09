@@ -2076,7 +2076,7 @@ nav.navbar.bootsnav.no-background {
 a.about-nav:hover,a.service-nav:hover,a.portfolio-nav:hover,a.cbrand-nav:hover,a.blog-nav:hover,a.contact-nav:hover{
 	color: #fff !important;
 }
-.about-nav.nav-active{
+.nav-active{
 	font-size:1.2rem;
 	color: #fff !important;
 }
