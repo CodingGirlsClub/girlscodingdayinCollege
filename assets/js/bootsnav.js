@@ -126,30 +126,30 @@
             // ------------------------------------------------------------------------------ //
             // Navbar Fixed
             // ------------------------------------------------------------------------------ //
-            if( getNav.hasClass("no-background")){
-                $(window).on("scroll", function(){
-                    var scrollTop = $(window).scrollTop();
-                    if(scrollTop >34){
-                        $(".navbar-fixed").removeClass("no-background");
-                    }else {
-                        $(".navbar-fixed").addClass("no-background");
-                    }
-                });
-            }
+            // if( getNav.hasClass("no-background")){
+            //     $(window).on("scroll", function(){
+            //         var scrollTop = $(window).scrollTop();
+            //         if(scrollTop >34){
+            //             $(".navbar-fixed").removeClass("no-background");
+            //         }else {
+            //             $(".navbar-fixed").addClass("no-background");
+            //         }
+            //     });
+            // }
             
             // ------------------------------------------------------------------------------ //
             // Navbar Fixed
             // ------------------------------------------------------------------------------ //
-            if( getNav.hasClass("navbar-transparent")){
-                $(window).on("scroll", function(){
-                    var scrollTop = $(window).scrollTop();
-                    if(scrollTop >34){
-                        $(".navbar-fixed").removeClass("navbar-transparent");
-                    }else {
-                        $(".navbar-fixed").addClass("navbar-transparent");
-                    }
-                });
-            }
+            // if( getNav.hasClass("navbar-transparent")){
+            //     $(window).on("scroll", function(){
+            //         var scrollTop = $(window).scrollTop();
+            //         if(scrollTop >34){
+            //             $(".navbar-fixed").removeClass("navbar-transparent");
+            //         }else {
+            //             $(".navbar-fixed").addClass("navbar-transparent");
+            //         }
+            //     });
+            // }
             
             // ------------------------------------------------------------------------------ //
             // Button Cart
@@ -157,7 +157,24 @@
             $(".btn-cart").on("click", function(e){
                 e.stopPropagation();
             });
-            
+            // $(".about-nav").on("click", function(){
+            //     $(this).addClass('nav-active');
+            // });
+            // $(".service-nav").on("click", function () {
+            //     $(this).addClass('nav-active');
+            // });
+            // $(".portfolio-nav").on("click", function () {
+            //     $(this).addClass('nav-active');
+            // });
+            // $(".cbrand-nav").on("click", function () {
+            //     $(this).addClass('nav-active');
+            // });
+            // $(".blog-nav").on("click", function () {
+            //     $(this).addClass('nav-active');
+            // });
+            // $(".contact-nav").on("click", function () {
+            //     $(this).addClass('nav-active');
+            // });
             // ------------------------------------------------------------------------------ //
             // Toggle Search
             // ------------------------------------------------------------------------------ //
