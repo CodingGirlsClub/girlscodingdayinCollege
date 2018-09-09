@@ -30,8 +30,10 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-
-
+    $("#navbar-menu a").on("click", function () {
+        $('#navbar-menu a.nav-active').removeClass('nav-active');
+        $(this).addClass('nav-active');
+    });
 
     /*---------------------------------------------*
      * WOW
