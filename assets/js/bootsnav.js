@@ -157,10 +157,6 @@
             $(".btn-cart").on("click", function(e){
                 e.stopPropagation();
             });
-            $("#navbar-menu a").on("click", function(){
-                $('#navbar-menu a.nav-active').removeClass('nav-active');
-                $(this).addClass('nav-active');
-            });
             // ------------------------------------------------------------------------------ //
             // Toggle Search
             // ------------------------------------------------------------------------------ //

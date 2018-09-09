@@ -2027,7 +2027,7 @@ Footer Section style
 	bottom: 0;
 	width: 16px;
 	height: 3px;
-	background: #777;
+	background: #fff;
 	margin-bottom: 2px;
 	display: block;
 	transition: 0.3s;
@@ -2077,7 +2077,7 @@ a.about-nav:hover,a.service-nav:hover,a.portfolio-nav:hover,a.cbrand-nav:hover,a
 	color: #fff !important;
 }
 .nav-active{
-	font-size:1.2rem;
+	/* font-size:1.2rem; */
 	color: #fff !important;
 }
 .navbar-header button {
