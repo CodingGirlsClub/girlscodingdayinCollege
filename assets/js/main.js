@@ -198,8 +198,9 @@ jQuery(document).ready(function ($) {
     //End
 
 });
-
-
+$(window).on("scroll",function(){
+    $('nav').css('display','block');
+})
 
 
 

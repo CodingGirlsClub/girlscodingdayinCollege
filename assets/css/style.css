@@ -2020,7 +2020,6 @@ Footer Section style
 }
 
 /*Modified CSS*/
-
 .navbar-header button span {
 	position: absolute;
 	top: 8px;
@@ -2071,7 +2070,8 @@ nav.navbar.bootsnav.no-background.white ul.nav > li > a{
 	color:rgb(203, 163, 199);
 }
 nav.navbar.bootsnav.no-background {
-	background-color: rgb(83, 18, 77);
+	background-color: rgba(83, 18, 77, 80%);
+	display: none;
 }
 a.about-nav:hover,a.service-nav:hover,a.portfolio-nav:hover,a.cbrand-nav:hover,a.blog-nav:hover,a.contact-nav:hover{
 	color: #fff !important;
